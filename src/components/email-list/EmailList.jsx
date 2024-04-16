@@ -1,5 +1,8 @@
 export const EmailList = () => {
   return (
-    <div>EmailList</div>
+    <>
+      <h1>Email-Lists</h1>
+      <div></div>
+    </>
   )
 }

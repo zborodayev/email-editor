@@ -15,19 +15,16 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(223, 223, 223);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: rgb(223, 223, 223);
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+
 }
 
 h1 {
@@ -47,11 +44,12 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgb(223, 223, 223);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+button:focus{
+  transition:ease-in-out 0.35s ;
+  background-color:rgb(223, 223, 223);
+  
 }
 
 @media (prefers-color-scheme: light) {
@@ -60,9 +58,10 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: rgb(223, 223, 223);
   }
   button {
     background-color: #f9f9f9;
+    border: none;
   }
 }
