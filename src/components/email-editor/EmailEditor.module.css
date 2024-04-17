@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 500px;
+  border: 1px solid #2e2e2e;
+}
+.editor{
+  padding: 1.2rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  width: 460px;
+  min-height: 120px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: transparent;
+  resize: none;
+}
+.actoins{
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.3rem;
+  border-radius: 10px;
+  
+}
+
+.read-the-docs {
+  color: #191010;
+}
+.h1{
+  padding-left: 1rem;
+}

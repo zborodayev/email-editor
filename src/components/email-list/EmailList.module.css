@@ -1,0 +1,13 @@
+.Listeditor{
+  display: grid;
+  width: 460px;
+  min-height: 120px;
+  border: 1px solid #2e2e2e;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  resize: none;
+}
+.div{
+    padding-left: 2rem;
+}
